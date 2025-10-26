@@ -3,7 +3,7 @@ import AllDoctors from "../allDoctors/AllDoctors";
 
 const BestDoctors = () => {
   const [doctors, setDoctors] = useState([]);
-  console.log(doctors);
+
   useEffect(() => {
     fetch("doctors.json")
       .then((res) => res.json())
@@ -19,7 +19,7 @@ const BestDoctors = () => {
         </span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-4 lg:mx-0 gap-6">
-        {doctors?.map((doctor) => (
+        {doctors.slice(0, 6)?.map((doctor) => (
           <AllDoctors doctor={doctor} key={doctor.id} />
         ))}
       </div>
