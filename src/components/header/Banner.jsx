@@ -16,8 +16,23 @@ const Banner = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mx-4 lg:mx-0">
-        <img className="w-full lg:h-[55%]" src={img2} alt="" />
-        <img className="w-full lg:h-[55%]" src={img} alt="" />
+        <div className="w-full h-[350px] lg:h-[450px] overflow-hidden rounded-2xl">
+          <img
+            src={img2}
+            alt="Image 1"
+            className="w-full h-full object-cover hover:scale-105  transition-transform duration-500"
+            loading="lazy"
+          />
+        </div>
+
+        <div className="w-full h-[350px] lg:h-[450px] overflow-hidden rounded-2xl">
+          <img
+            src={img}
+            alt="Image 2"
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+        </div>
       </div>
     </>
   );
