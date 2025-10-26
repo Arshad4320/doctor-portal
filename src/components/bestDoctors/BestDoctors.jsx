@@ -19,7 +19,7 @@ const BestDoctors = () => {
         </span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-4 lg:mx-0 gap-6">
-        {doctors.slice(0, 6)?.map((doctor) => (
+        {doctors?.map((doctor) => (
           <AllDoctors doctor={doctor} key={doctor.id} />
         ))}
       </div>

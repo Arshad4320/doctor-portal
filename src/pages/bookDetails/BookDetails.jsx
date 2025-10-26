@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router";
+import { FaRegRegistered } from "react-icons/fa6";
+import { Link, useLoaderData, useParams } from "react-router";
+import { setDataIntoDb } from "../../utility/localStoragetoDb";
+import { toast } from "react-toastify";
 
 const BookDetails = () => {
   const data = useLoaderData();
-  const [details, setDetails] = useState([]);
-  console.log(details);
   const { id } = useParams();
+  const [details, setDetails] = useState([]);
 
   useEffect(() => {
-    const findData = data.find((data) => data.id === parseInt(id));
+    const findData = data?.find((data) => data?.id === parseInt(id));
     setDetails(findData);
   }, []);
 
@@ -16,7 +18,7 @@ const BookDetails = () => {
     <div className="rounded-md p-12 my-10 bg-gray-100 z-20">
       <div className="flex flex-col lg:flex-row gap-7">
         <img
-          className="rounded-md w-full mb-6 lg:w-[450px]"
+          className="rounded-md w-full h-[350px] mb-6 lg:w-[350px]"
           src={details.doctorImage}
           alt=""
         />
@@ -31,11 +33,30 @@ const BookDetails = () => {
             <span className="text-gray-500"> Working at</span> <br />
             <span className="text-black"> {details.clinicName}</span>
           </p>
-          {details.availableDays?.map((day, i) => (
-            <p key={i}>{day}</p>
-          ))}
-          <p>{details.registrationNumber}</p>
-          <p>{details.fee}</p>
+          <p className="text-lg text-gray-600 my-2 py-1 border-y-2 border-dashed border-gray-600 flex items-center gap-1">
+            <FaRegRegistered /> Reg No.{details.registrationNumber}
+          </p>
+          <div className="flex justify-center gap-4 py-2">
+            {details.availableDays?.map((day, i) => (
+              <span
+                className="bg-orange-100 border px-4  rounded-full border-orange-400 text-orange-400"
+                key={i}
+              >
+                {day}
+              </span>
+            ))}
+          </div>
+          <div className="text-blue-500 py-2 flex gap-16 justify-center">
+            <span>Taka : {details.fee}</span> <span>Per consultation</span>
+          </div>
+          <Link
+            onClick={() => setDataIntoDb(details.id)}
+            to={`/doctor/my-booked/${details.id}`}
+          >
+            <button className="text-white text-xl bg-blue-600 hover:border hover:border-blue-600 duration-300 px-4 py-2 rounded-full w-full hover:bg-white hover:text-blue-600">
+              Book Appointment Now
+            </button>
+          </Link>
         </div>
       </div>
     </div>
