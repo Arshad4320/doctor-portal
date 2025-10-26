@@ -7,6 +7,8 @@
         "speciality": "Internal Medicine",
         "experience": "10 years",
         "registrationNumber": "BMDC-12345",
+        "clinicName": "City Care Diagnostic Center",
+        "availableDays": [ "Saturday", "Monday", "Wednesday" ],
         "fee": 800
     },
     {
@@ -17,8 +19,9 @@
         "speciality": "Orthopedic Surgeon",
         "experience": "12 years",
         "registrationNumber": "BMDC-67890",
+        "clinicName": "Ortho Plus Hospital",
+        "availableDays": [ "Sunday", "Tuesday", "Thursday" ],
         "fee": 1000
-
     },
     {
         "id": 3,
@@ -28,6 +31,8 @@
         "speciality": "Gynecologist",
         "experience": "8 years",
         "registrationNumber": "BMDC-54321",
+        "clinicName": "Women's Health Clinic",
+        "availableDays": [ "Saturday", "Tuesday", "Thursday" ],
         "fee": 900
     },
     {
@@ -38,8 +43,9 @@
         "speciality": "Cardiologist",
         "experience": "15 years",
         "registrationNumber": "BMDC-99887",
+        "clinicName": "Heart Care Hospital",
+        "availableDays": [ "Sunday", "Monday", "Wednesday", "Friday" ],
         "fee": 1200
-
     },
     {
         "id": 5,
@@ -49,6 +55,8 @@
         "speciality": "Dermatologist",
         "experience": "9 years",
         "registrationNumber": "BMDC-44556",
+        "clinicName": "Skin Glow Center",
+        "availableDays": [ "Monday", "Wednesday", "Friday" ],
         "fee": 700
     },
     {
@@ -59,6 +67,8 @@
         "speciality": "Neurologist",
         "experience": "11 years",
         "registrationNumber": "BMDC-11223",
+        "clinicName": "Neuro Care Institute",
+        "availableDays": [ "Sunday", "Tuesday", "Thursday" ],
         "fee": 950
     },
     {
@@ -69,6 +79,8 @@
         "speciality": "Child Specialist",
         "experience": "7 years",
         "registrationNumber": "BMDC-77889",
+        "clinicName": "Happy Kids Clinic",
+        "availableDays": [ "Saturday", "Monday", "Thursday" ],
         "fee": 600
     },
     {
@@ -79,8 +91,9 @@
         "speciality": "Urologist",
         "experience": "13 years",
         "registrationNumber": "BMDC-33445",
+        "clinicName": "Uro Health Center",
+        "availableDays": [ "Sunday", "Tuesday", "Friday" ],
         "fee": 1100
-
     },
     {
         "id": 9,
@@ -90,6 +103,8 @@
         "speciality": "ENT Specialist",
         "experience": "9 years",
         "registrationNumber": "BMDC-22119",
+        "clinicName": "Ear Nose Throat Care",
+        "availableDays": [ "Monday", "Wednesday", "Thursday" ],
         "fee": 750
     },
     {
@@ -100,6 +115,8 @@
         "speciality": "Psychiatrist",
         "experience": "14 years",
         "registrationNumber": "BMDC-55667",
+        "clinicName": "Mind Wellness Center",
+        "availableDays": [ "Sunday", "Tuesday", "Friday" ],
         "fee": 950
     },
     {
@@ -110,6 +127,8 @@
         "speciality": "Eye Specialist",
         "experience": "10 years",
         "registrationNumber": "BMDC-88990",
+        "clinicName": "Vision Eye Hospital",
+        "availableDays": [ "Saturday", "Monday", "Wednesday" ],
         "fee": 850
     },
     {
@@ -120,8 +139,9 @@
         "speciality": "Kidney Specialist",
         "experience": "16 years",
         "registrationNumber": "BMDC-66442",
+        "clinicName": "Renal Care Hospital",
+        "availableDays": [ "Sunday", "Tuesday", "Thursday" ],
         "fee": 1300
-
     },
     {
         "id": 13,
@@ -131,6 +151,8 @@
         "speciality": "Radiologist",
         "experience": "8 years",
         "registrationNumber": "BMDC-33122",
+        "clinicName": "Imaging Diagnostic Center",
+        "availableDays": [ "Monday", "Wednesday", "Friday" ],
         "fee": 850
     },
     {
@@ -141,6 +163,8 @@
         "speciality": "General Surgeon",
         "experience": "11 years",
         "registrationNumber": "BMDC-22553",
+        "clinicName": "Surgical Care Hospital",
+        "availableDays": [ "Saturday", "Tuesday", "Thursday" ],
         "fee": 950
     },
     {
@@ -151,6 +175,8 @@
         "speciality": "Gynecologist",
         "experience": "9 years",
         "registrationNumber": "BMDC-77113",
+        "clinicName": "Mother & Child Care",
+        "availableDays": [ "Sunday", "Monday", "Wednesday" ],
         "fee": 900
     },
     {
@@ -161,7 +187,8 @@
         "speciality": "Cancer Specialist",
         "experience": "14 years",
         "registrationNumber": "BMDC-88991",
+        "clinicName": "Onco Life Hospital",
+        "availableDays": [ "Saturday", "Tuesday", "Friday" ],
         "fee": 1500
-
     }
 ]

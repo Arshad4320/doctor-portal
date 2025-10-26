@@ -36,7 +36,7 @@ const Navbar = () => {
       <div
         onClick={() => setOpen(!isOpen)}
         className={`lg:hidden flex flex-col h-screen bg-white w-full px-4 duration-700  absolute ${
-          isOpen ? "left-0" : "-left-[600px]"
+          isOpen ? "left-0" : "-left-[1200px]"
         }`}
       >
         {isOpen && links}
