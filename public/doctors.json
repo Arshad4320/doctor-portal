@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "doctorImage": "https://i.postimg.cc/t4kdpcgV/d01.jpg",
+        "name": "Dr. Ayesha Rahman",
+        "education": "MBBS, FCPS (Medicine)",
+        "speciality": "Internal Medicine",
+        "experience": "10 years",
+        "registrationNumber": "BMDC-12345",
+        "fee": 800
+    },
+    {
+        "id": 2,
+        "doctorImage": "https://i.postimg.cc/pTwzsbs3/d02.webp",
+        "name": "Dr. Mehedi Hasan",
+        "education": "MBBS, MS (Orthopedics)",
+        "speciality": "Orthopedic Surgeon",
+        "experience": "12 years",
+        "registrationNumber": "BMDC-67890",
+        "fee": 1000
+
+    },
+    {
+        "id": 3,
+        "doctorImage": "https://i.postimg.cc/mkSkC0JY/d03.jpg",
+        "name": "Dr. Nusrat Jahan",
+        "education": "MBBS, DGO (Gynecology)",
+        "speciality": "Gynecologist",
+        "experience": "8 years",
+        "registrationNumber": "BMDC-54321",
+        "fee": 900
+    },
+    {
+        "id": 4,
+        "doctorImage": "https://i.postimg.cc/h40tyRZx/d04.webp",
+        "name": "Dr. Tanvir Ahmed",
+        "education": "MBBS, MD (Cardiology)",
+        "speciality": "Cardiologist",
+        "experience": "15 years",
+        "registrationNumber": "BMDC-99887",
+        "fee": 1200
+
+    },
+    {
+        "id": 5,
+        "doctorImage": "https://i.postimg.cc/FzYCL47q/d05.jpg",
+        "name": "Dr. Shila Chowdhury",
+        "education": "MBBS, MD (Dermatology)",
+        "speciality": "Dermatologist",
+        "experience": "9 years",
+        "registrationNumber": "BMDC-44556",
+        "fee": 700
+    },
+    {
+        "id": 6,
+        "doctorImage": "https://i.postimg.cc/zD9YFt8W/d06.jpg",
+        "name": "Dr. Rafiul Karim",
+        "education": "MBBS, MD (Neurology)",
+        "speciality": "Neurologist",
+        "experience": "11 years",
+        "registrationNumber": "BMDC-11223",
+        "fee": 950
+    },
+    {
+        "id": 7,
+        "doctorImage": "https://i.postimg.cc/fRv4ZMXj/d07.jpg",
+        "name": "Dr. Sadia Islam",
+        "education": "MBBS, FCPS (Pediatrics)",
+        "speciality": "Child Specialist",
+        "experience": "7 years",
+        "registrationNumber": "BMDC-77889",
+        "fee": 600
+    },
+    {
+        "id": 8,
+        "doctorImage": "https://i.postimg.cc/GhJgTq2b/d08.jpg",
+        "name": "Dr. Mahmudul Alam",
+        "education": "MBBS, MS (Urology)",
+        "speciality": "Urologist",
+        "experience": "13 years",
+        "registrationNumber": "BMDC-33445",
+        "fee": 1100
+
+    },
+    {
+        "id": 9,
+        "doctorImage": "https://i.postimg.cc/rmxNXwRq/d09.jpg",
+        "name": "Dr. Farhana Sultana",
+        "education": "MBBS, FCPS (ENT)",
+        "speciality": "ENT Specialist",
+        "experience": "9 years",
+        "registrationNumber": "BMDC-22119",
+        "fee": 750
+    },
+    {
+        "id": 10,
+        "doctorImage": "https://i.postimg.cc/MGPp67RD/d12.jpg",
+        "name": "Dr. Arif Chowdhury",
+        "education": "MBBS, MD (Psychiatry)",
+        "speciality": "Psychiatrist",
+        "experience": "14 years",
+        "registrationNumber": "BMDC-55667",
+        "fee": 950
+    },
+    {
+        "id": 11,
+        "doctorImage": "https://i.postimg.cc/kg28PgLL/d10.jpg",
+        "name": "Dr. Lubna Nahar",
+        "education": "MBBS, FCPS (Ophthalmology)",
+        "speciality": "Eye Specialist",
+        "experience": "10 years",
+        "registrationNumber": "BMDC-88990",
+        "fee": 850
+    },
+    {
+        "id": 12,
+        "doctorImage": "https://i.postimg.cc/MKMKWfK0/d11.jpg",
+        "name": "Dr. Jamil Hasan",
+        "education": "MBBS, MD (Nephrology)",
+        "speciality": "Kidney Specialist",
+        "experience": "16 years",
+        "registrationNumber": "BMDC-66442",
+        "fee": 1300
+
+    },
+    {
+        "id": 13,
+        "doctorImage": "https://i.postimg.cc/MGPp67RD/d12.jpg",
+        "name": "Dr. Nargis Akter",
+        "education": "MBBS, FCPS (Radiology)",
+        "speciality": "Radiologist",
+        "experience": "8 years",
+        "registrationNumber": "BMDC-33122",
+        "fee": 850
+    },
+    {
+        "id": 14,
+        "doctorImage": "https://i.postimg.cc/bvJqBZM2/d13.jpg",
+        "name": "Dr. Firoz Mahmud",
+        "education": "MBBS, MS (Surgery)",
+        "speciality": "General Surgeon",
+        "experience": "11 years",
+        "registrationNumber": "BMDC-22553",
+        "fee": 950
+    },
+    {
+        "id": 15,
+        "doctorImage": "https://i.postimg.cc/9M956ZBz/d14.jpg",
+        "name": "Dr. Samira Noor",
+        "education": "MBBS, FCPS (Gynecology)",
+        "speciality": "Gynecologist",
+        "experience": "9 years",
+        "registrationNumber": "BMDC-77113",
+        "fee": 900
+    },
+    {
+        "id": 16,
+        "doctorImage": "https://i.postimg.cc/gkJ4rdfH/d15.jpg",
+        "name": "Dr. Rakibul Hasan",
+        "education": "MBBS, MD (Oncology)",
+        "speciality": "Cancer Specialist",
+        "experience": "14 years",
+        "registrationNumber": "BMDC-88991",
+        "fee": 1500
+
+    }
+]
