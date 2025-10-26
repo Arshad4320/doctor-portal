@@ -29,14 +29,17 @@ const Navbar = () => {
         </button>
       </div>
       <div className="lg:hidden  flex justify-between  bg-white p-4">
-        <div className="bg-white">
-          <Hamburger direction="right" toggled={isOpen} toggle={setOpen} />
-          <div className="absolute   bg-white flex flex-col w-full p-3  ">
-            {" "}
-            {isOpen && links}
-          </div>
-        </div>
+        <Hamburger direction="right" toggled={isOpen} toggle={setOpen} />
+
         <p className="text-3xl font-bold ">Doctor Portal</p>
+      </div>
+      <div
+        onClick={() => setOpen(!isOpen)}
+        className={`lg:hidden flex flex-col bg-white w-full px-4 duration-500 absolute ${
+          isOpen ? "left-0" : "-left-48"
+        }`}
+      >
+        {isOpen && links}
       </div>
     </>
   );
