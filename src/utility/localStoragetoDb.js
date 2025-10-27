@@ -17,6 +17,7 @@ const setDataIntoDb = (id) => {
     data.push(id);
     const book = JSON.stringify(data);
     localStorage.setItem("book", book);
+    return toast.success("your appointment successfully added");
   }
 };
 export { getDataIntoDb, setDataIntoDb };

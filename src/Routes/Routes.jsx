@@ -27,7 +27,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/doctor/my-booked/:id",
-        loader: () => fetch("doctors.json"),
+        loader: () => fetch("/doctors.json"),
         element: <Booked />,
       },
     ],
