@@ -107,7 +107,7 @@ const Booked = () => {
         bookData.map((doctor) => (
           <div
             key={doctor.id}
-            className="flex flex-col lg:flex-row mx-4 lg:mx-0 lg:justify-between border my-4 rounded-full border-blue-400 p-4"
+            className="flex flex-col lg:flex-row mx-4 lg:mx-0 lg:justify-between  my-4  p-4"
           >
             <div>
               <p className="text-xl font-medium">{doctor.name}</p>

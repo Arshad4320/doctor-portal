@@ -15,7 +15,7 @@ const BookDetails = () => {
   }, []);
 
   return (
-    <div className="rounded-md p-12 my-10 bg-gray-100 z-20">
+    <div className="rounded-md p-6 lg:p-12 my-10 bg-gray-100 z-20">
       <div className="flex flex-col lg:flex-row gap-7">
         <img
           className="rounded-md w-full h-[350px] mb-6 lg:w-[350px]"
