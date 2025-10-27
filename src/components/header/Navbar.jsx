@@ -12,6 +12,7 @@ const Navbar = () => {
       <Link className="text-blue-600 mr-4 text-xl" to="/about">
         About
       </Link>
+      {/* <Link to={`/doctor/my-booked/${id}`}></Link> */}
       <Link className="text-blue-600 mr-4 text-xl" to="/blog">
         Blog
       </Link>

@@ -20,4 +20,18 @@ const setDataIntoDb = (id) => {
     return toast.success("your appointment successfully added");
   }
 };
-export { getDataIntoDb, setDataIntoDb };
+// const cancelIntoLocalStorage = (id) => {
+//   const data = getDataIntoDb();
+//   const filteredData = data.filter((item) => item !== id);
+//   localStorage.setItem("book", JSON.stringify(filteredData));
+//   toast.info("Appointment canceled successfully");
+// };
+const cancelIntoLocalStorage = (id) => {
+  const data = getDataIntoDb();
+  const filteredData = data.filter((item) => item !== id);
+  // setDataIntoDb(filteredData);
+  localStorage.setItem("book", JSON.stringify(filteredData));
+  toast.warn("Appointment canceled successfully");
+};
+
+export { getDataIntoDb, setDataIntoDb, cancelIntoLocalStorage };
